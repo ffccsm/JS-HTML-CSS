@@ -1,0 +1,15 @@
+.header-name {
+
+    background-color: #d9534f;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.border-top {
+
+    border-top: 1px solid #d9534f;
+
+    
+    margin-top: 10px;
+    
+}
