@@ -1,9 +1,19 @@
-var a = 5;
-var b = 10;
 
-result= a+b;
-console.log(result)
 
-actualResult=result*5;
 
-console.log(actualResult)
+
+
+var num = [20, 10,30, 40];
+    
+var sum = 0 ;
+
+
+for ( var i=0; i<4; i++) {
+
+    console.log(num[i]);
+    sum = sum + num[i];
+    
+}
+
+console.log(sum);
+
