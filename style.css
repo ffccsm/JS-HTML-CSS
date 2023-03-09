@@ -1,15 +1,17 @@
-.header-name {
+body {
 
-    background-color: #d9534f;
     text-align: center;
-    border-radius: 100px;
+    background-color: azure;
 }
 
-.border-top {
-
-    border-top: 1px solid #d9534f;
-
+img {
     
-    margin-top: 10px;
-    
+    border-radius: 19px;
+}
+
+button {
+
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
 }
