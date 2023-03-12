@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS selector Learning</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Change color on button click</title>
+    <link rel="stylesheet" href="style.css" >
+    <style>
+        /* Add some styles to the paragraph element */
+        p {
+            color: black;
+            font-size: 24px;
+        }
+    </style>
 </head>
 <body>
 
 
-    <button onclick="prev()"> Prev</button>
+    <button onclick="myStyle()"> Click for Song 1</button>
 
-    <img src="profile.jpg" alt="This is Image" height="700" width="470">
-
-    <button onclick="next()"> Next</button>
+    <button onclick="myStyle2()">Click for Song 2</button>
 
 
 
@@ -22,10 +25,8 @@
 
 
 
-    
 
-
-
-    <script src="Image-slider.js"></script>
+    <!-- Include the JavaScript file -->
+    <script src="audioplay.js"></script>
 </body>
 </html>
